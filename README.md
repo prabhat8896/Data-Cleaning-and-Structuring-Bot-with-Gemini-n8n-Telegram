@@ -23,12 +23,19 @@ A fully automated Telegram bot powered by **n8n** and **Google Gemini AI**, desi
 ---
 
 ## 📁 Project Workflow
+🛠 How to Run This
+Clone or import the provided .json file into n8n
 
-```mermaid
-graph TD
-  A[User sends CSV to Telegram bot] --> B[Get file path from Telegram API]
-  B --> C[Download binary file]
-  C --> D[Parse CSV (Spreadsheet File)]
-  D --> E[Send to Gemini via AI Agent]
-  E --> F[Create new cleaned file]
-  F --> G[Send back cleaned CSV via Telegram]
+Configure your credentials:
+
+Telegram API (Bot Token)
+
+Gemini API Key via AI Agent
+
+Send a CSV to your bot to test!
+
+Receive cleaned file in seconds 🎉
+
+
+
+
